@@ -5,7 +5,7 @@ class Ship():
     """Класс для управления кораблем"""
     def __init__(self, ai_game):
         """Инициализируем корабль и задаем его начальную позицию"""
-        self.screen = ai_game.screem
+        self.screen = ai_game.screen
         self.screen_rect = ai_game.screen.get_rect()
 
         # Загружаем изображение коробля и получаем прямоугольник
