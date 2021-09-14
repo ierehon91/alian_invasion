@@ -7,4 +7,5 @@ class Settings:
         self.bg_color = (40, 40, 40)
 
         # Настройка коробля
-        self.ship_speed = 1.8
+        self.ship_horizon_speed = 1.6
+        self.ship_vertical_speed = 0.4
