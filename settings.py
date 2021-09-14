@@ -11,7 +11,8 @@ class Settings:
         self.ship_vertical_speed = 0.4
 
         # Параметры снаряда
-        self.bullet_speed = 2
+        self.bullet_speed = 1
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = (160, 160, 160)
+        self.bullet_allowed = 4
