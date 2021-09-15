@@ -17,8 +17,5 @@ class Alien(Sprite):
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
 
-        # self.rect.x = self.screen.width
-        # self.rect.y = self.screen.height
-
         # Сохранение точной горизонтальной позиции пришельца.
         self.x = float(self.rect.x)
